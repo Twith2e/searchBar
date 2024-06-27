@@ -48,7 +48,7 @@ function showList() {
         }
       );
 
-      const itemDiv = document.createElement("div");
+      const itemDiv = document.createElement("li");
       itemDiv.innerHTML = highlightedItem.toLowerCase();
       result.appendChild(itemDiv);
     });
