@@ -47,8 +47,6 @@ function showList() {
           return `<span class="highlight">${match}</span>`;
         }
       );
-      //   result.innerHTML += `<li>${match.toLowerCase()}</li>`;
-      console.log(highlightedItem);
 
       const itemDiv = document.createElement("div");
       itemDiv.innerHTML = highlightedItem.toLowerCase();
